@@ -1,6 +1,6 @@
 name: industry
-summary: "TODO: Summary"
-description: "TODO: Description"
+summary: "industrial sim"
+description: "simulate industrial processes"
 license: MIT
 authors: Joseph Weissman
 email: jweissman1986@gmail.com

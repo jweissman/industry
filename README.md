@@ -8,13 +8,52 @@
 
 ## Description
 
-TODO: Description
+Simulate industrial processes!
+
+Core ideas:
+
+   - Substances
+   (Modes?)
+
+----
+
+   - Materials
+   - Operations: create/transform materials into other materials
+   - Machines: gather together related operations
 
 ## Features
 
 ## Examples
 
     require 'industry'
+
+## Game Ideas
+
+  - a tetris/battleship kind of NxN grid
+
+    ....T.........
+    ..T...........
+    ......T.......
+    .........T....
+    ..XX..........
+    ..XX....T.....
+    ..............
+    ......T.......
+    ..............
+
+   (things you can 'place')
+
+  - list of resources (organized)
+
+     [
+       wood: 1000 (+0.2/s),
+       ...
+     ]
+
+   (abstract resources that aren't represented in the grid, but tracked/accounted for)
+
+----
+
 
 ## Requirements
 

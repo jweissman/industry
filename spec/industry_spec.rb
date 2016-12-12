@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'industry'
 
 describe Industry do
-  it "should have a VERSION constant" do
-    expect(subject.const_get('VERSION')).to_not be_empty
+  it 'should simulate industry' do
+    expect { Universe.simulate! }.not_to raise_error
   end
 end
